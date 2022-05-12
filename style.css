@@ -1,0 +1,77 @@
+
+body{
+    background-image: url(./background_image.jpg);
+    background-repeat: no-repeat;
+}
+
+.cerceve{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 1000px;
+}
+
+h1{text-align: center;
+color: azure;
+font-family: 'Roboto', sans-serif;
+
+
+}
+span{
+    color: red;
+}
+h3{
+    color: azure;
+    text-align: center;
+    
+}
+
+
+
+div.tablo{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 40%;
+    height: auto;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.8);
+   
+}
+#name,#age,#email{width: 80%;
+height: 30px;
+margin: 3px 8px;}
+
+
+#icerik{
+    width: 40%;
+    height: 25px;
+    margin: 3px 8px;
+}
+
+label{
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+#movie{
+    margin: 3px 8px;
+}
+
+#gender{
+    margin: 3px 8px;
+}
+
+ #yorum{
+     margin: 1px 8px;
+    
+ }           
+
+#button{
+    background-color: rgb(238, 60, 60);
+    border-radius: 15px;
+    width: 25%;
+    height: 30px;
+    color: white;
+}
+.submit{
+    text-align: center;
+}

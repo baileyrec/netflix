@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ntflx</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:regular,700" rel="stylesheet" />
+
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="cerceve">
+    <h1>NET<span>FLIX</span></h1>
+    <h3>Thank you for signing up at Netflix. Tell us more about your self</h3>
+
+    <div class="tablo">
+       
+         <form action="result.html" method="get">
+         <label for="isim">Name</label> <br>
+            <input type="text" id='name' name="isim" placeholder="Isim yaziniz">
+            <br>
+         
+          
+            <label for="yaş">Age</label> <br />
+            <input type="number"
+              name="yaş"
+              id="age"
+              placeholder="Yas"><br>
+          
+          
+            <label for="email">EMAIL</label><br>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-Mail adresinizi yaziniz"
+            ><br><br>
+          
+        
+          
+            <label for="icerik">Content Type</label>
+            <br />
+            <select name="beklenti" id="icerik">
+              
+                <option value="komedi">Seriler</option>
+                <option value="drama">Drama</option>
+                <option value="korku">Korku</option>
+                <option value="animasyon">Animasyon</option>
+              
+            </select>
+            
+          <br/><br><br>
+
+
+          
+            <label for="">Movie Type</label><br />
+            
+            <input id="movie" type="checkbox" name="tür1"  value="Comedy" />
+            <label for="Comedy">Comedy</label><br>
+            <input type="checkbox" name="tür2" id="movie" value="Action" />
+            <label for="Action">Action</label><br>
+            <input type="checkbox" name="tür3" id="movie" value="romance" />
+            <label for="romance">Romance</label>
+           <br/><br><br>
+
+          
+            <label>Gender</label> <br />
+            
+            <input type="radio" name="cinsiyet" id="gender" value="erkek" />
+            <label for="erkek">Male</label><br>
+            <input type="radio" name="cinsiyet" id="gender" value="kadın" />
+            <label for="kadın">Female</label><br>
+            <input type="radio" name="cinsiyet" id="gender" value="none" checked />
+            <label for="none">Other</label><br><br>
+        
+
+         
+            <label for="yorum">Feed back</label>
+            <br/>
+            <textarea
+              name="yorum"
+              id="yorum" placeholder="Yorum yaz" cols="40" rows="4"
+            ></textarea><br><br>
+            
+          
+          <div class="submit">
+            <input type="submit" value="Submit" id="button" />
+          </div>
+          <br><br>
+  
+
+
+        </form>
+    </div>
+</div>
+
+<p></p>
+</body>
+</html>
